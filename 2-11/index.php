@@ -1,4 +1,4 @@
-<form action="result.php" method="get">
+<form action="result.php" method="POST">
   名前：<input type="text" name="my_name" />
   <br>
   メールアドレス：<input type="text" name="email" />
