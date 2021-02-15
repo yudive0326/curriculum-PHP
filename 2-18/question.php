@@ -12,6 +12,14 @@ $answer2 = $questions2[3];
 $answer3 = $questions3[1];
 ?>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
 <p>お疲れ様です<?php echo $q; ?>さん</p>
 
 <form action="answer.php" name="z" method="POST">
@@ -59,10 +67,3 @@ $answer3 = $questions3[1];
       <input type="submit" value="回答する" />　
       
 </form>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="index.css">
-</head>

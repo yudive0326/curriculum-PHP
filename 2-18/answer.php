@@ -23,6 +23,14 @@ function hiroyuki($kaitou, $date) {
 
 ?>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
 <p><?php echo $murayama; ?>さんの結果は・・・？</p>
 <p>①の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
@@ -33,10 +41,3 @@ function hiroyuki($kaitou, $date) {
 <p>③の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
 <p><?php echo hiroyuki($kaitou3, $date3);?></p>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="index.css">
-</head>
