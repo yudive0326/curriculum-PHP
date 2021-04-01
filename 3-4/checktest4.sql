@@ -21,3 +21,4 @@ INSERT INTO `posts` (`title`, `category_no`, `comment`, `created`) VALUES
 ('最近読んだ本', 3, 'オブジェクト指向設計', NOW()),
 ('オフィス近場の安いランチ', 1, '天狗酒場', NOW()),
 ('静岡の良さ', 2, '富士山', NOW());
+
