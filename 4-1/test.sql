@@ -1,6 +1,6 @@
     CREATE TABLE users2 (
       id INT AUTO_INCREMENT,
-      neme VARCHAR(50),
+      name VARCHAR(50),
       password VARCHAR(255),
       time TIMESTAMP,
       PRIMARY KEY (id)
