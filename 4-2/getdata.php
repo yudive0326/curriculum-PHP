@@ -12,7 +12,7 @@ class getData{
     }
     
     /**
-     * 記事情報の取得
+     * 本情報の取得
      *
      * @param 
      * @return array $post_data 記事情報

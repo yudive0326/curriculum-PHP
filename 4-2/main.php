@@ -4,9 +4,6 @@ require_once("function.php");
 // セッション開始
 session_start();
 // ログインしていなければ、login.phpにリダイレクト
-check_user_logged_in();
-//$data = new getData();
-//$booksdata = $data->getBooksData();
 $pdo = db_connect();
 
 try {
