@@ -1,0 +1,66 @@
+/* ここからヘッダー部分 */
+.title {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.nav-menu {
+    display: none;
+}
+
+
+/* ここからここから学べる言語セクション */
+.item {
+    width: 70%;
+    margin: 0 auto;
+}
+.item p {
+    width: 80%;
+}
+
+.contents img {
+    width:45%;
+}
+
+
+/* ここからテックチャンネルセクション */
+.movie_section {
+    height: 800px;
+}
+
+.movies {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.movies p {
+    margin-bottom: 25px;
+}
+
+
+/* ここから各言語の特徴セクション */
+.lang {
+    display: block;
+}
+
+.lang img {
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.lang_desc h1 {
+    text-align: center;
+}
+
+.lang_desc p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* ここからフッター部分 */
+footer ul{
+    width: 50%;
+}

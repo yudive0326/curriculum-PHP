@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    background-color: #FFCCFF;
+    width: 500px;
+    height: 80px;
+    margin-left: 100px;
+    padding-left: 150px;
+
+}
+p {
+    font-size: 20px;
+}
+.target {
+    color: blue;
+}
+.ab {
+    color: red;
+
+}

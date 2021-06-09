@@ -1,0 +1,31 @@
+/* デフォルトでついている不要な余白を消す記述です↓ */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* デフォルトでついている不要な余白を消す記述です↑ */
+
+.header {
+    background-color: skyblue;
+}
+
+.header ul{
+    /* リストを横並びにするために親要素に「display: flex」をつけている  */
+    display: flex;
+
+    /* リストの間隔を開けるため */
+    justify-content: space-between;
+
+    /* 中央揃えにするためには「widthで幅を持っている必要がある」 */
+    width: 1000px;
+    margin: 0 auto;
+    
+    /* リストの上下に幅を持たせている */
+    padding: 20px 0px;
+    list-style: none;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+}
