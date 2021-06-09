@@ -1,15 +1,11 @@
 
-
-
 class Taiyaki {
-    constructor(anko, cream, cheese) {
-        this.anko = anko;
-        this.cream = cream;
-        this.cheese = cheese;
+    constructor(A,B,C) {
+        this.A = A;
+        this.B = B;
+        this.C = C;
 
     }
 }
-let taiyaki = new Taiyaki('あんこ', 'クリーム', 'チーズ');
-console.log('中身は' + taiyaki.anko + 'です');
-console.log('中身は' + taiyaki.cream + 'です');
-console.log('中身は' + taiyaki.cheese + 'です');
+let kata = new Taiyaki('あんこ','クリーム','チーズ');
+console.log("中身は" + kata.A + "です");
