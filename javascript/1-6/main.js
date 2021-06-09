@@ -1,10 +1,9 @@
-//問1
+//問1：10、15、20、25を含む配列の変数scoresを用意して、画像のように偶数だけを出力してください。
 
 let scores = [10, 15, 20, 25];
-console.log(scores);
-
-console.log(scores[0]　+ 'は偶数です');
-console.log(scores[2]　+ 'は偶数です');
+if (scores  % 2 === 0) {
+    console.log(scores.length);
+}
 
 
 //問2：ガソリンとナンバーのプロパティを持った「carオブジェクト」を作成して、ガソリンとナンバーを出力してください。
